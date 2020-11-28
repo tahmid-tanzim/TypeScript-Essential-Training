@@ -26,3 +26,8 @@ npm install --save-dev react-hot-loader
 ```
 npm install --save redux react-redux
 ```
+
+### Install Redux Persist
+```
+npm install --save redux-persist
+```
