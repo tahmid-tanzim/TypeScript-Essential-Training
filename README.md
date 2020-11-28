@@ -1,1 +1,1 @@
-# LinkedIn Learning - TypeScript Essential Training
+# LinkedIn Learning - Building Modern Projects with React
