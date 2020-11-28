@@ -4,3 +4,6 @@
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react
 ```
  Create `touch .babelrc`
+ ```
+npm install --save react react-dom
+```
