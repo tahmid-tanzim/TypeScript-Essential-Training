@@ -31,3 +31,9 @@ npm install --save redux react-redux
 ```
 npm install --save redux-persist
 ```
+
+### Install Redux Thunk
+```
+npm install --save redux-thunk redux-devtools-extension @babel/runtime
+npm install --save-dev @babel/plugin-transform-runtime
+```
