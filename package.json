@@ -1,0 +1,37 @@
+{
+  "name": "react-ecosystems",
+  "version": "1.0.0",
+  "description": "React Ecosystem",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-middleware": "^4.0.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "npx webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahmid-tanzim/react-ecosystems.git"
+  },
+  "author": "Tahmid Tanzim <tahmid.tanzim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahmid-tanzim/react-ecosystems/issues"
+  },
+  "homepage": "https://github.com/tahmid-tanzim/react-ecosystems#readme"
+}
