@@ -1,17 +1,20 @@
-import React from "react";
-import './TodoListItem.css';
+import React, { useState } from 'react';
+import './NewTodoForm.css';
 
-const NewTodoForm = ({ todo }) => {
-  return (
-    <div className="todo-item-container">
-      <h3>{todo.text}</h3>
+const NewTodoForm = () => {
+    const [inputValue, setInputValue] = useState('');
 
-      <div className="todo-item-container">
-        <button className="completed-button">Mark As Completed</button>
-        <button className="remove-button">Remove</button>
-      </div>
-    </div>
-  );
+    return (
+        <div className="new-todo-form">
+            <input
+                className="new-todo-input"
+                type="text"
+                placeholder="Type your new todo here"
+                value={inputValue}
+                onChange={e => setInputValue(e.target.value)} />
+            <button className="new-todo-button">Create Todo</button>
+        </div>
+    );
 };
 
 export default NewTodoForm;
