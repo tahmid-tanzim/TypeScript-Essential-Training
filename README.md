@@ -13,14 +13,16 @@ npm install --save react react-dom
 ```
 
 ### Install WebPack
-
 ```
 npm install --save-dev webpack webpack-cli webpack-dev-server webpack-dev-middleware style-loader css-loader babel-loader
 ```
 
-
 ### Install React Hot Loader
-
 ```
 npm install --save-dev react-hot-loader
+```
+
+### Install Redux
+```
+npm install --save redux react-redux
 ```
