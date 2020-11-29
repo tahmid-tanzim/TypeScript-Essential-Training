@@ -37,3 +37,8 @@ npm install --save redux-persist
 npm install --save redux-thunk redux-devtools-extension @babel/runtime
 npm install --save-dev @babel/plugin-transform-runtime
 ```
+
+### Install Reselect
+```
+npm install --save reselect
+```
