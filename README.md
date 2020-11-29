@@ -42,3 +42,8 @@ npm install --save-dev @babel/plugin-transform-runtime
 ```
 npm install --save reselect
 ```
+
+### Install Styled Components
+```
+npm install --save styled-components
+```
