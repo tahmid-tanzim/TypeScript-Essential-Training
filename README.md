@@ -47,3 +47,8 @@ npm install --save reselect
 ```
 npm install --save styled-components
 ```
+
+### Install Testing Library
+```
+npm install --save-dev mocha chai @babel/register sinon node-fetch fetch-mock
+```
